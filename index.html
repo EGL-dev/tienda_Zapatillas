@@ -3,317 +3,307 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecoomerce Zapatillas</title>
+   
+    <title>Tienda virtual</title>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-    <header class="l-header" id="header">
- 
-        <nav class="nav bd-grid">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bxs-grid"></i>
 
+
+<!--- Comienzo del--->
+
+<div class="header-l">
+    <nav class="nav bd-grid">
+        <div>
+            <a href="" class="nav__logo">SARA</a>
+        </div>
+          <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item"><a  href="#Home" class="nav__link active"></a>Home</li>
+                <li class="nav__item"><a  href="#feactured" class="nav__link"></a>Feactured</li>
+                <li class="nav__item"><a  href="#New" class="nav__link"></a>New</li>
+                <li class="nav__item"><a  href="#suscribed" class="nav__link" ></a>Suscribe</li>
+
+            </ul>
+
+        </div>
+        <div>
+            <i class='bx bx-cart nav__cart'></i>
+            <i class='bx bx-menu nav__toggle' id="nav-toggle"></i>
+        </div>
+    </nav>
+</div>
+
+<main class="l-main">
+    <section class="home" id="Home">
+        <div class="home__container bd-grid">
+            <div class="home__data">
+                <h1 class="home__title">NEW <br><br><span>ARRIVALS</span></h1>
+                <a href="#feactured" class="button">GO SHOPING</a>
+                <img src="assets/img/home.png" alt="" class="home__img">
             </div>
 
-            <a href="#" class="nav__logo">Robe</a>
+        </div>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="#feactured" class="nav__link">Feactured</a></li>
-                    <li class="nav__item"><a href="#women" class="nav__link">Women</a></li>
-                    <li class="nav__item"><a href="#new" class="nav__link">New</a></li>
-                    <li class="nav__item"><a href="" class="nav__link">Shop</a></li>
-                </ul>
-            </div>
+    </section>
 
-            <div class="nav__shop">
-                <i class="bx bx-shopping-bag"></i>
-            </div>
-        </nav>
-
-
-
-    </header>
-
-
-    <main class="l-main">
-        
-        
-
-        <section class="home section" id="home">
-            <div class="home__container bd-grid">
-                <div class="home__sneaker">
-                    <div class="home__shape"></div>
-                    <img src="img/imghome.png" alt="" class="home__img">
+    <section class="collection section">
+        <div class="collection__container bd-grid">
+            <div class="collection__box">
+                <img src="assets/img/backpackMan.png" alt="" class="collection__img">
+            
+                <div class="collection__data">
+                <h2 class="collection__title"><span class="collection__subtitle">Men</span><br>Backpack</h2>
+                <a href="#" class="collection__view">View collection</a>
                 </div>
-                <div class="home__data">
-                    <span class="home__new">New in</span>
-                    <h1 class="home__title">YEEZY BOOST <br> SPLY - 350</h1>
-                    <p class="home__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, odio!</p>
-                    <a href="" class="button">Explore now</a>
+            </div>
+            <div class="collection__box">
+                
+            
+                <div class="collection__data">
+                <h2 class="collection__title"><span class="collection__subtitle">Woman</span><br>Backpack</h2>
+                <a href="#" class="collection__view">View collection</a>
+                </div>
+                <img src="assets/img/backpackWoman.png" alt="" class="collection__img">
+            </div>
+        
+        </div>
+        
+            
+        
+    </section>
 
+
+    <section class="feactured section" id="feactured">
+        <h2 class="section-title">FEACTURED PRODUCTS</h2>
+
+        <a href="#" class="section-all">View All</a>
+
+        <div class="feactured__container bd-grid">
+            <div class="feactured__product">
+                <div class="feactured__box">
+                    <div class="feactured__new">NEW</div>
+                    <img src="assets/img/feature1.png" alt="" class="feactured__img">
+                </div>
+
+                <div class="featured__data">
+                    <h3 class="feactured__name">Speaker Beats Pill</h3>
+                    <span class="feactured__precio">$29</span>
+                </div>
+            </div>
+
+            <div class="feactured__product">
+                <div class="feactured__box">
+                    <div class="feactured__new">NEW</div>
+                    <img src="assets/img/feature2.png" alt="" class="feactured__img">
+                </div>
+
+                <div class="featured__data">
+                    <h3 class="feactured__name">Apple Air Pods</h3>
+                    <span class="feactured__precio">$122</span>
                 </div>
             </div>
             
-        </section>
-
-        <section class="feactures section">
-            <br>
-
-            <h2 class="section-title">FEACTURED</h2>
-
-            <div class="feactured__container bd-grid" id="feactured">
-                <article class="sneaker">
-                    <div class="sneaker__sale">Sale</div>
-                    <img src="img/featured1.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Jordan</span>
-                    <span class="sneaker__preci">$149.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
-
-                <article class="sneaker">
-                    <div class="sneaker__sale">Sale</div>
-                    <img src="img/featured2.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Free RN</span>
-                    <span class="sneaker__preci">$149.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
-
-                <article class="sneaker">
-                    <div class="sneaker__sale">Sale</div>
-                    <img src="img/featured3.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Free RN</span>
-                    <span class="sneaker__preci">$149.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
-            </div>
-        </section>
-
-        <section class="collection section">
-            <br>
-            <div class="collection__container bd-grid">
-
-                <div class="collection__card">
-                    <div class="collection__data">
-                        <h3 class="collection__name">Nike</h3>
-                        <p class="collection__description">New collection 2020</p>
-                        <a href="" class="button-ligth">Buy now<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-
-                    </div>
-                    <img src="img/collection1.png" alt="" class="collection__img">
+            <div class="feactured__product">
+                <div class="feactured__box">
+                    <div class="feactured__new">NEW</div>
+                    <img src="assets/img/feature3.png" alt="" class="feactured__img">
                 </div>
 
-
-                <div class="collection__card">
-                    <div class="collection__data">
-                        <h3 class="collection__name">Adidas</h3>
-                        <p class="collection__description">New collection 2020</p>
-                        <a href="" class="button-ligth">Buy now<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-
-                    </div>
-                    <img src="img/collection2.png" alt="" class="collection__img">
+                <div class="featured__data">
+                    <h3 class="feactured__name">Smartwatch</h3>
+                    <span class="feactured__precio">$29</span>
                 </div>
-
-          
-
-
-
-
             </div>
-        </section>
+            <div class="feactured__product">
+                    <div class="feactured__box">
+                        <div class="feactured__new">NEW</div>
+                        <img src="assets/img/feature4.png" alt="" class="feactured__img">
+                    </div>
+    
+                    <div class="featured__data">
+                        <h3 class="feactured__name">Headphone One Black</h3>
+                        <span class="feactured__precio">$29</span>
+                    </div>
+            </div>
+            
 
-        <section class="women section" id="women">
-            <br>
-            <br>
-            <h2 class="section-title">WOMEN SNEAKERS</h2>
+        </div>
+     
+        
 
-            <div class="women__container bd-grid">
+    </section>
+    
+    <section class="offer section">
+        <div class="offer__bg">
+            <div class="offer__data">
+                <h2 class="offer__title">Special Offer</h2>
+                <p class="offer__description">Special offerts discounts for women this week only</p>
 
-                <article class="sneaker">
-                   
-                    <img src="img/women1.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Free TR</span>
-                    <span class="sneaker__preci">$129.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
 
-              
+                <a href="#" class="button">SHOP NOW</a>
+            </div>
+
+        </div>   
+
+    </section>
+
+    <section class="new section" id="New">
+        <h2 class="section-title">NEW ARRIVALS</h2>
+        <a href="#" class="section-all">View all</a>
+        <div class="new__container bd-grid">
+            <div class="new__box">
+                <img src="assets/img/new1.png" alt="" class="new__img">
                 
-                <article class="sneaker">
-                   
-                    <img src="img/women2.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Free TR</span>
-                    <span class="sneaker__preci">$129.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                </div>
+            </div>
 
-  
-                
-                <article class="sneaker">
-                   
-                    <img src="img/women3.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike GS Pink</span>
-                    <span class="sneaker__preci">$129.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
+         
+            <div class="new__box">
+                <img src="assets/img/new2.png" alt="" class="new__img">
+               
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                </div>
+            </div>
+
+         
+            <div class="new__box">
+                <img src="assets/img/new3.png" alt="" class="new__img">
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                    
+                </div>
+            </div>
+            
+            <div class="new__box">
+                <img src="assets/img/new4.png" alt="" class="new__img">
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                    
+                </div>
+            </div>
+            
+            <div class="new__box">
+                <img src="assets/img/new5.png" alt="" class="new__img">
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                    
+                </div>
+            </div>
+            
+            <div class="new__box">
+                <img src="assets/img/new6.png" alt="" class="new__img">
+                <div class="new__link">
+                    <a href="#" class="button">VIEW PRODUCT</a>
+                    
+                </div>
+            </div>
+
+           
+        </div>
 
         
-                
-                <article class="sneaker">
-                   
-                    <img src="img/women4.png" alt="" class="sneaker__img">
-                    <span class="sneaker__name">Nike Get 5</span>
-                    <span class="sneaker__preci">$129.99</span>
-                    <a href="" class="button-ligth">Add to Cart<i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </article>
-                
-                
+        
 
-            </div>
+    </section>
 
-        </section>
+    <section class="newsletter section">
 
-        <section class="offer section">
-            <br>
-            <div class="offer__container bd-grid">
-                <div class="offer__data">
-                    <h3 class="offer__title">50% OFF</h3>
-                    <p class="offer__description">In Adidas Superstart sneakers</p>
-                    <a href="" class="button">Shop Now</a>
-                </div>
-                <img src="img/offert.png" alt="" class="offer__img">
+        <div class="newsletter__container bd-grid" id="newsletter">
+            <div class="newlleter__suscribe">
+                <h2 class="section-title">OUR NEWSLETTER</h2>
+                <p class="newsletter__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nam obcaecati illum voluptates hic? Maxime?</p>
 
-            </div>
-        </section>
-
-        <section class="new section" id="new">
-            <br>
-            <h2 class="section-title">NEW COLLECTION</h2>
-            <div class="new__container bd-grid">
-                <div class="new__mens">
-                    <img src="img/new1.png" alt="" class="new__mens-img">
-                    <h3 class="new__title">Mens Shoes</h3>
-                    <span class="new__preci">From $79.99</span>
-                    <a href="" class="button-ligth">View collection <i class='bx bxs-right-arrow-alt button-icon'></i></a>
-                </div>
-                
-
-                <div class="new__sneaker">
-                    <div class="new__sneaker-card">
-                        <img src="img/new2.png" alt="" class="new__sneaker-img">
-                        <div class="new__sneaker-overlay">
-                            <a href="" class="button">Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                    <div class="new__sneaker-card">
-                        <img src="img/new3.png" alt="" class="new__sneaker-img">
-                        <div class="new__sneaker-overlay">
-                            <a href="" class="button">Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                    <div class="new__sneaker-card">
-                        <img src="img/new4.png" alt="" class="new__sneaker-img">
-                        <div class="new__sneaker-overlay">
-                            <a href="" class="button">Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                    <div class="new__sneaker-card">
-                        <img src="img/new5.png" alt="" class="new__sneaker-img">
-                        <div class="new__sneaker-overlay">
-                            <a href="" class="button">Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-
-               
-            </div>
-        </section>
-        <br>
-        <section class="newsletter section">
-            <div class="newsletter__container bd-grid">
-                <div>
-                    <h3 class="newsletter__title">Suscribe And Get <br> 10% OFF</h3>
-                    <p class="newsletter__description">Get 10% discount for all products</p>
-
-
-                </div>
-
-                <form action="" class="newsletter__suscribe">
-                    <input type="text" placeholder="@email.com" class="newsletter__input">
-                    <a href="" class="button">Suscribe</a>
+                <form action="" class="newsletter__form">
+                    <input type="text" class="newsletter__input" placeholder="Enter your email">
+                    <a href="" class="button">SUSCRIBE</a>
                 </form>
-
             </div>
-        </section>
 
-        <br>
-        <footer class="section footer">
-            <div class="footer__container bd-grid">
-                <div class="footer__box">
-                    <h3 class="footer__title">Robe</h3>
-                    <p class="footer__description">New collection 2020.</p>
-                </div>
+        </div>
 
-                <div class="footer__box">
-                    <h3 class="footer__title">EXPLORE</h3>
-
-                    <ul>
-                        <li><a href="#home" class="footer__link"></a>Home</li>
-                        <li><a href="#feactured" class="footer__link"></a>Feactured</li>
-                        <li><a href="#women" class="footer__link"></a>Women</li>
-                        <li><a href="#new" class="footer__link"></a>New</li>
-                        
-                    </ul>
-                    
-                </div>
-
-                <div class="footer__box">
-                    <h3 class="footer__title">SUPPORT</h3>
-
-                    <ul>
-                        <li><a href="#" class="footer__link"></a>Product Help</li>
-                        <li><a href="#" class="footer__link"></a>Custumer Care</li>
-                        <li><a href="#" class="footer__link"></a>Athorized service</li>
-                       
-                        
-                    </ul>
-                    
-                </div>
-
-                <div class="footer__box">
-                   
-                    <ul>
-                       <a href="" class="footer__social"><i class="bx bxl-facebook"></i></a>
-                       <a href="" class="footer__social"><i class="bx bxl-instagram"></i></a>
-                       <a href="" class="footer__social"><i class="bx bxl-twitter"></i></a>
-                       <a href="" class="footer__social"><i class="bx bxl-google"></i></a>
+    </section>
     
-                    </ul>
-                    
-                </div>
-                
+
+    <section class="sponsors section">
+        <div class="sponsors__container bd-grid">
+            <div class="sponsors__logo">
+                <img src="assets/img/logo1.png" alt="">
             </div>
-            <p class="footer__copy">&#169; 2020 Emacode. All rigth reserved</p>
-        </footer>
+            <div class="sponsors__logo">
+                <img src="assets/img/logo2.png" alt="">
+            </div>
+            <div class="sponsors__logo">
+                <img src="assets/img/logo3.png" alt="">
+            </div>
+            <div class="sponsors__logo">
+                <img src="assets/img/logo4.png" alt="">
+            </div>
 
-    </main>
+        </div>
+
+
+    </section>
+
+    <footer class=" footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__box">
+                <h3 class="footer__title">SARA</h3>
+                <p class="footer__deal">Products store</p>
+                <a href=""><img src="../assets/img/footerstore1.png" alt="" class="footer__store"></a>
+                <a href=""><img src="../assets/img/footerstore2.png" alt="" class="footer__store"></a>
+            </div>
+
+            <div class="footer__box">
+                <h3 class="footer__title">EXPLORE</h3>
+                <ul>
+                    <li><a href="" class="footer__link">Home</a></li>
+                    <li><a href="" class="footer__link">Feactured</a></li>
+                    <li><a href="" class="footer__link">New</a></li>
+                    <li><a href="" class="footer__link">Suscribe</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer__box">
+                <h3 class="footer__title">OUR SERVICES</h3>
+                <ul>
+                    <li><a href="" class="footer__link">Pricing</a></li>
+                    <li><a href="" class="footer__link">Free Shipping</a></li>
+                    <li><a href="" class="footer__link">Gift cards</a></li>
+                   
+                </ul>
+            </div>
+            
+            <div class="footer__box">
+                <h3 class="footer__title">FOLLOW</h3>
+                <ul>
+                    <a href="" class="footer__social"><i class="bx bxl-facebook-square"></i></a>
+                    <a href="" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="" class="footer__social"><i class="bx bxl-twitter"></i></a>
+                   
+                </ul>
+            </div>
+
+        </div>
+        <p class="footer__copy">&#169; 2020 copyright al right reserved</p>
+    </footer>
+
+
+
+</main>
 
 
 
 
 
 
-    <script src="../js/index.js"></script>
+    <script src="js/index.js"></script>
+    
 </body>
 </html>
